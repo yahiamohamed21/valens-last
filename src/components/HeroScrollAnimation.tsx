@@ -47,18 +47,31 @@ export const HeroScrollAnimation: React.FC = () => {
   useEffect(() => {
     let loadedCount = 0;
     const images: HTMLImageElement[] = [];
+    let isRevealed = false;
+
+    const revealSite = () => {
+      if (isRevealed) return;
+      isRevealed = true;
+      setFadeOutLoading(true);
+      setTimeout(() => {
+        setLoading(false);
+      }, 600);
+    };
+
+    // Fallback: Force reveal after 2.5 seconds max so user is not stuck
+    const fallbackTimeout = setTimeout(() => {
+      revealSite();
+    }, 2500);
 
     const handleLoad = () => {
       loadedCount++;
+      // We still update progress up to 100% just in case it's visible
       const percent = Math.round((loadedCount / TOTAL_FRAMES) * 100);
       setProgress(percent);
 
-      if (loadedCount === TOTAL_FRAMES) {
-        // Fade out overlay first, then remove from DOM
-        setFadeOutLoading(true);
-        setTimeout(() => {
-          setLoading(false);
-        }, 600);
+      // Reveal site after 10 frames load, or when all load
+      if (loadedCount >= 10 || loadedCount === TOTAL_FRAMES) {
+        revealSite();
       }
     };
 
@@ -71,6 +84,8 @@ export const HeroScrollAnimation: React.FC = () => {
       images.push(img);
     }
     imagesRef.current = images;
+
+    return () => clearTimeout(fallbackTimeout);
   }, []);
 
   const drawFrame = useCallback((index: number) => {
