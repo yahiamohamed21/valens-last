@@ -92,11 +92,23 @@ export const HeroScrollAnimation: React.FC = () => {
     const canvas = canvasRef.current;
     if (!canvas) return;
     const ctx = canvas.getContext("2d");
-    const img = imagesRef.current[index];
-    if (!ctx || !img || !img.complete) return;
+    if (!ctx) return;
+
+    // Find the closest loaded frame at or before the requested index
+    // This prevents the animation from freezing if the exact frame isn't loaded yet
+    let imgToDraw = null;
+    for (let i = index; i >= 0; i--) {
+      const img = imagesRef.current[i];
+      if (img && img.complete && img.naturalWidth > 0) {
+        imgToDraw = img;
+        break;
+      }
+    }
+
+    if (!imgToDraw) return;
 
     ctx.clearRect(0, 0, canvas.width, canvas.height);
-    drawImageCover(ctx, img, canvas.width, canvas.height);
+    drawImageCover(ctx, imgToDraw, canvas.width, canvas.height);
   }, []);
 
   const resizeCanvas = useCallback(() => {
