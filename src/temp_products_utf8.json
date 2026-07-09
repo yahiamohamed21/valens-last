@@ -1,0 +1,370 @@
+﻿{
+    "items":  [
+                  {
+                      "name":  "test12345",
+                      "nameAr":  "test123",
+                      "description":  "eeeeeee",
+                      "descriptionAr":  "eeeeeee",
+                      "categoryName":  "Vitamins",
+                      "categoryId":  "7ef1d452-3e43-4f34-88d3-e76307269975",
+                      "category":  null,
+                      "featured":  true,
+                      "bestSeller":  true,
+                      "newArrival":  true,
+                      "visible":  true,
+                      "variantType":  "none",
+                      "price":  1233.00,
+                      "discountPrice":  0.00,
+                      "size":  "12kg",
+                      "stock":  12,
+                      "sku":  "VL-TES",
+                      "mainImage":  "http://localhost:5054/products/76eb1ef8-dd5f-4ed7-a27b-401f2de2c7fb.png",
+                      "images":  [
+
+                                 ],
+                      "ingredients":  [
+                                          "3333333"
+                                      ],
+                      "ingredientsAr":  [
+
+                                        ],
+                      "benefits":  [
+
+                                   ],
+                      "benefitsAr":  [
+
+                                     ],
+                      "usage":  "33333333",
+                      "usageAr":  "33333333",
+                      "imageType":  "liquid",
+                      "imageColor":  "#FF8A75",
+                      "variants":  [
+
+                                   ],
+                      "reviews":  [
+
+                                  ],
+                      "rating":  5,
+                      "isDeleted":  false,
+                      "deletedAt":  null,
+                      "id":  "c775f95e-d962-44f3-9854-ee34e4a6f369",
+                      "createdAt":  "2026-07-04T03:52:34.08161+00:00",
+                      "updatedAt":  "2026-07-04T03:59:35.7919231+00:00"
+                  },
+                  {
+                      "name":  "fdgdfgfdgضض",
+                      "nameAr":  "بلايبلايبليب",
+                      "description":  "dfgdfgfdgdfgd",
+                      "descriptionAr":  "بلايبلايبليب",
+                      "categoryName":  "Creatine",
+                      "categoryId":  "87cc9248-cb0e-4767-bcc6-a6ac366eb8b8",
+                      "category":  null,
+                      "featured":  true,
+                      "bestSeller":  true,
+                      "newArrival":  true,
+                      "visible":  true,
+                      "variantType":  "both",
+                      "price":  2000.00,
+                      "discountPrice":  0,
+                      "size":  "1kg",
+                      "stock":  625,
+                      "sku":  "VL-SKU-1",
+                      "mainImage":  "http://localhost:5054/products/30234f7c-9885-46bc-a6e5-7f8fcf803384.jpeg",
+                      "images":  [
+                                     "http://localhost:5054/products/ec23d876-3aba-4ab3-98da-478627a24075.png",
+                                     "http://localhost:5054/products/08e5a4c7-fdda-4687-9804-80b37baeadd4.png",
+                                     "http://localhost:5054/products/6eb83dae-1156-4852-9fae-43a82034fced.png"
+                                 ],
+                      "ingredients":  [
+                                          "dfgdfgfdgdfgd"
+                                      ],
+                      "ingredientsAr":  [
+                                            "بلايبلايبليب"
+                                        ],
+                      "benefits":  [
+
+                                   ],
+                      "benefitsAr":  [
+
+                                     ],
+                      "usage":  "dfgdfgfdgdfgd",
+                      "usageAr":  "بلايبلايبليب",
+                      "imageType":  "powder",
+                      "imageColor":  "#FF8A75",
+                      "variants":  [
+                                       {
+                                           "variantId":  "var-1783129126321-r8xz6",
+                                           "productId":  "391a9b1a-a770-4d18-8b11-2143ba00016b",
+                                           "product":  null,
+                                           "size":  "1kg",
+                                           "flavor":  "GG Chocolate",
+                                           "price":  2000.00,
+                                           "discountPrice":  0.00,
+                                           "stockQuantity":  525,
+                                           "sku":  "VL-6321",
+                                           "image":  "",
+                                           "isAvailable":  true,
+                                           "id":  "b27341ac-e8ba-445c-9fee-ce89f1f6d1d1",
+                                           "createdAt":  "2026-07-04T04:00:05.3111334+00:00",
+                                           "updatedAt":  "2026-07-04T04:00:05.3111334+00:00"
+                                       },
+                                       {
+                                           "variantId":  "var-1783129114298-1",
+                                           "productId":  "391a9b1a-a770-4d18-8b11-2143ba00016b",
+                                           "product":  null,
+                                           "size":  "1kg",
+                                           "flavor":  "Gourmet Chocolate",
+                                           "price":  5000.00,
+                                           "discountPrice":  0.00,
+                                           "stockQuantity":  100,
+                                           "sku":  "VL-SKU-1",
+                                           "image":  "",
+                                           "isAvailable":  true,
+                                           "id":  "1c16a008-9a91-4b20-a909-d43bbeae2563",
+                                           "createdAt":  "2026-07-04T04:00:05.3111334+00:00",
+                                           "updatedAt":  "2026-07-04T04:00:05.3111334+00:00"
+                                       }
+                                   ],
+                      "reviews":  [
+
+                                  ],
+                      "rating":  5,
+                      "isDeleted":  false,
+                      "deletedAt":  null,
+                      "id":  "391a9b1a-a770-4d18-8b11-2143ba00016b",
+                      "createdAt":  "2026-07-04T01:39:24+00:00",
+                      "updatedAt":  "2026-07-04T04:00:05.3111334+00:00"
+                  },
+                  {
+                      "name":  "test",
+                      "nameAr":  "The category \u0027Creatine\u0027 is hidden/inactive. You cannot assign products to it.",
+                      "description":  "The category \u0027Creatine\u0027 is hidden/inactive. You cannot assign products to it.\r\n",
+                      "descriptionAr":  "The category \u0027Creatine\u0027 is hidden/inactive. You cannot assign products to it.\r\n",
+                      "categoryName":  "Creatine",
+                      "categoryId":  "87cc9248-cb0e-4767-bcc6-a6ac366eb8b8",
+                      "category":  null,
+                      "featured":  true,
+                      "bestSeller":  true,
+                      "newArrival":  true,
+                      "visible":  true,
+                      "variantType":  "both",
+                      "price":  1200.00,
+                      "discountPrice":  1140.00,
+                      "size":  "2kg, 1kg",
+                      "stock":  794,
+                      "sku":  "VL-SKU-1",
+                      "mainImage":  "http://localhost:5054/products/f885c8c7-c603-424c-8e66-0e312d5a7d36.png",
+                      "images":  [
+                                     "http://localhost:5054/uploads/products/21f3dbca-bec9-4b5f-bbd0-72729b15fce9.png",
+                                     "http://localhost:5054/uploads/products/48424d4a-2cce-4a45-a954-a0a983d2145d.png",
+                                     "http://localhost:5054/uploads/products/3256e4a9-b91a-4159-9ec5-8623c5bafae2.png"
+                                 ],
+                      "ingredients":  [
+                                          "The category \u0027Creatine\u0027 is hidden/inactive. You cannot assign products to it."
+                                      ],
+                      "ingredientsAr":  [
+                                            "The category \u0027Creatine\u0027 is hidden/inactive. You cannot assign products to it."
+                                        ],
+                      "benefits":  [
+
+                                   ],
+                      "benefitsAr":  [
+
+                                     ],
+                      "usage":  "The category \u0027Creatine\u0027 is hidden/inactive. You cannot assign products to it.",
+                      "usageAr":  "The category \u0027Creatine\u0027 is hidden/inactive. You cannot assign products to it.",
+                      "imageType":  "powder",
+                      "imageColor":  "#FF8A75",
+                      "variants":  [
+                                       {
+                                           "variantId":  "66891cf2-4d27-41c1-a23f-850a150363d2",
+                                           "productId":  "6b7e7ef0-34c7-4f73-bd0a-99759fdc058a",
+                                           "product":  null,
+                                           "size":  "2kg",
+                                           "flavor":  "gg Chocolate",
+                                           "price":  1200.00,
+                                           "discountPrice":  1140.00,
+                                           "stockQuantity":  197,
+                                           "sku":  "VL-6408",
+                                           "image":  "",
+                                           "isAvailable":  true,
+                                           "id":  "ca32d229-06f8-4f81-8118-128a80f27c1f",
+                                           "createdAt":  "2026-07-04T03:51:14.5572408+00:00",
+                                           "updatedAt":  "2026-07-04T03:51:14.5572408+00:00"
+                                       },
+                                       {
+                                           "variantId":  "var-1782877029030-b7r31",
+                                           "productId":  "6b7e7ef0-34c7-4f73-bd0a-99759fdc058a",
+                                           "product":  null,
+                                           "size":  "1kg",
+                                           "flavor":  "Gourmet Chocolate",
+                                           "price":  1200.00,
+                                           "discountPrice":  1140.00,
+                                           "stockQuantity":  399,
+                                           "sku":  "VL-SKU-1-9030",
+                                           "image":  "",
+                                           "isAvailable":  true,
+                                           "id":  "0b951c06-af7a-4c07-8958-6cf874ad3025",
+                                           "createdAt":  "2026-07-04T03:51:14.5572408+00:00",
+                                           "updatedAt":  "2026-07-04T03:51:14.5572408+00:00"
+                                       },
+                                       {
+                                           "variantId":  "49a9d8a2-3134-4ef2-96eb-abfcbb1f553b",
+                                           "productId":  "6b7e7ef0-34c7-4f73-bd0a-99759fdc058a",
+                                           "product":  null,
+                                           "size":  "2kg",
+                                           "flavor":  "Gourmet Chocolate",
+                                           "price":  1200.00,
+                                           "discountPrice":  0.00,
+                                           "stockQuantity":  198,
+                                           "sku":  "VL-SKU-1",
+                                           "image":  "",
+                                           "isAvailable":  true,
+                                           "id":  "549da1ef-b8ea-4b9a-b176-a5c0de301436",
+                                           "createdAt":  "2026-07-04T03:51:14.5572408+00:00",
+                                           "updatedAt":  "2026-07-04T03:51:14.5572408+00:00"
+                                       }
+                                   ],
+                      "reviews":  [
+                                      {
+                                          "productId":  "6b7e7ef0-34c7-4f73-bd0a-99759fdc058a",
+                                          "customerName":  "يحيوح",
+                                          "customerEmail":  "admin@valens.com",
+                                          "rating":  2,
+                                          "comment":  "الناس دي ميه فل وعشره",
+                                          "isApproved":  false,
+                                          "id":  "dc5e4aef-7127-4149-9bf6-3528f134960e",
+                                          "createdAt":  "2026-07-01T15:21:59.813343+00:00",
+                                          "updatedAt":  "2026-07-01T15:43:51.7796543+00:00"
+                                      },
+                                      {
+                                          "productId":  "6b7e7ef0-34c7-4f73-bd0a-99759fdc058a",
+                                          "customerName":  "Sarah Aly",
+                                          "customerEmail":  "sarah@example.com",
+                                          "rating":  4,
+                                          "comment":  "Good product, but the package was slightly delayed.",
+                                          "isApproved":  true,
+                                          "id":  "9f11eb96-3f8d-40e3-b40f-43805d279abe",
+                                          "createdAt":  "2026-07-01T08:01:36.1163615+00:00",
+                                          "updatedAt":  "2026-07-01T08:01:36.1163615+00:00"
+                                      },
+                                      {
+                                          "productId":  "6b7e7ef0-34c7-4f73-bd0a-99759fdc058a",
+                                          "customerName":  "Sherif Mohamed",
+                                          "customerEmail":  "sherif@example.com",
+                                          "rating":  5,
+                                          "comment":  "ممتاز جداً وجودة عالية وأنصح به!",
+                                          "isApproved":  true,
+                                          "id":  "0d0921e1-978b-4192-8d2c-629cbf9be2c8",
+                                          "createdAt":  "2026-07-01T08:01:36.1163615+00:00",
+                                          "updatedAt":  "2026-07-01T08:01:36.1163615+00:00"
+                                      },
+                                      {
+                                          "productId":  "6b7e7ef0-34c7-4f73-bd0a-99759fdc058a",
+                                          "customerName":  "PowerShell Tester",
+                                          "customerEmail":  "tester@valens.com",
+                                          "rating":  4,
+                                          "comment":  "Automated test review - works great!",
+                                          "isApproved":  false,
+                                          "id":  "8834463c-bbac-4c55-b924-8211c865cc6e",
+                                          "createdAt":  "2026-07-01T08:02:58.2935775+00:00",
+                                          "updatedAt":  "2026-07-04T03:49:10.0423283+00:00"
+                                      }
+                                  ],
+                      "rating":  4.5,
+                      "isDeleted":  false,
+                      "deletedAt":  null,
+                      "id":  "6b7e7ef0-34c7-4f73-bd0a-99759fdc058a",
+                      "createdAt":  "2026-07-01T01:42:10.3288972+00:00",
+                      "updatedAt":  "2026-07-04T03:51:14.5572408+00:00"
+                  },
+                  {
+                      "name":  "Test2222",
+                      "nameAr":  "تجربة أونلاين",
+                      "description":  "Test desc",
+                      "descriptionAr":  "وصف تجريبي",
+                      "categoryName":  "Creatine",
+                      "categoryId":  "87cc9248-cb0e-4767-bcc6-a6ac366eb8b8",
+                      "category":  null,
+                      "featured":  false,
+                      "bestSeller":  true,
+                      "newArrival":  false,
+                      "visible":  true,
+                      "variantType":  "none",
+                      "price":  100.00,
+                      "discountPrice":  0.00,
+                      "size":  "111",
+                      "stock":  97,
+                      "sku":  "VL-REM-TEST",
+                      "mainImage":  "http://localhost:5054/products/dc26412e-7375-4bb3-855f-1f3ae7a14ca1.jpeg",
+                      "images":  [
+
+                                 ],
+                      "ingredients":  [
+                                          "1111"
+                                      ],
+                      "ingredientsAr":  [
+                                            "111111111"
+                                        ],
+                      "benefits":  [
+                                       "11111111111"
+                                   ],
+                      "benefitsAr":  [
+                                         "111111111"
+                                     ],
+                      "usage":  "11111111111",
+                      "usageAr":  "111111111",
+                      "imageType":  "powder",
+                      "imageColor":  "#FF8A75",
+                      "variants":  [
+
+                                   ],
+                      "reviews":  [
+                                      {
+                                          "productId":  "479a9744-a02c-4467-a4e8-7b9b81f2f9f8",
+                                          "customerName":  "admin",
+                                          "customerEmail":  "admin@valens.com",
+                                          "rating":  5,
+                                          "comment":  "qqqqqq",
+                                          "isApproved":  false,
+                                          "id":  "dd08faa0-befe-4e08-9441-348a01b49cfe",
+                                          "createdAt":  "2026-07-01T15:30:13.1660438+00:00",
+                                          "updatedAt":  "2026-07-04T03:49:08.5692603+00:00"
+                                      },
+                                      {
+                                          "productId":  "479a9744-a02c-4467-a4e8-7b9b81f2f9f8",
+                                          "customerName":  "Sarah Aly",
+                                          "customerEmail":  "sarah@example.com",
+                                          "rating":  4,
+                                          "comment":  "Good product, but the package was slightly delayed.",
+                                          "isApproved":  true,
+                                          "id":  "e922d7b6-cb37-434d-bf78-37ea9cede96b",
+                                          "createdAt":  "2026-07-01T08:01:36.1163615+00:00",
+                                          "updatedAt":  "2026-07-01T08:01:36.1163615+00:00"
+                                      },
+                                      {
+                                          "productId":  "479a9744-a02c-4467-a4e8-7b9b81f2f9f8",
+                                          "customerName":  "Sherif Mohamed",
+                                          "customerEmail":  "sherif@example.com",
+                                          "rating":  5,
+                                          "comment":  "ممتاز جداً وجودة عالية وأنصح به!",
+                                          "isApproved":  false,
+                                          "id":  "ff0eb295-4d52-415f-afbf-ba9adc1c2350",
+                                          "createdAt":  "2026-07-01T08:01:36.1163615+00:00",
+                                          "updatedAt":  "2026-07-04T03:49:11.7529135+00:00"
+                                      }
+                                  ],
+                      "rating":  4,
+                      "isDeleted":  false,
+                      "deletedAt":  null,
+                      "id":  "479a9744-a02c-4467-a4e8-7b9b81f2f9f8",
+                      "createdAt":  "2026-06-29T01:19:10.8495709+00:00",
+                      "updatedAt":  "2026-07-04T03:51:33.6833167+00:00"
+                  }
+              ],
+    "pageNumber":  1,
+    "totalPages":  1,
+    "totalCount":  4,
+    "hasPreviousPage":  false,
+    "hasNextPage":  false
+}
