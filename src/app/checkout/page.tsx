@@ -119,12 +119,13 @@ export default function CheckoutPage() {
 
   // Grand Total
   const finalTotal = taxableAmount + shippingCost + taxAmount;
-  // Resolve calculations (Use server-side preview calculations if available, otherwise fallback to local math)
+  // Resolve calculations
+  // We strictly enforce the client-side calculated shipping cost based on the selected governorate.
   const subtotalVal = previewSubtotal !== null ? previewSubtotal : subtotal;
   const discountVal = previewDiscountAmount !== null ? previewDiscountAmount : discountAmount;
-  const shippingVal = previewShippingCost !== null ? previewShippingCost : shippingCost;
-  const taxVal = previewTotal !== null ? 0 : taxAmount;
-  const totalVal = previewTotal !== null ? previewTotal : finalTotal;
+  const shippingVal = shippingCost;
+  const taxVal = taxAmount;
+  const totalVal = Math.max(0, subtotalVal - discountVal) + shippingVal + taxVal;
 
   // Fetch server-side checkout preview reactively
   useEffect(() => {

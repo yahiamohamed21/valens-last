@@ -59,8 +59,7 @@ export const HomeBannersSlider = () => {
                     />
                   </picture>
                   {/* Overlay for readability */}
-                  <div className="absolute inset-0 bg-gradient-to-t from-main-bg via-main-bg/60 to-transparent"></div>
-                  <div className="absolute inset-0 bg-black/30"></div>
+                  <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-black/30 to-transparent"></div>
                 </div>
 
                 {/* Content */}

@@ -12,13 +12,15 @@ import { Footer } from "@/components/Footer";
 import { ValensBrandCarousel } from "@/components/ValensBrandCarousel";
 import { Carousel } from "@/components/Carousel/Carousel";
 import { mockCarouselData } from "@/data/mockCarouselData";
-import { HeroScrollAnimation } from "@/components/HeroScrollAnimation";
 import { HomeBannersSlider } from "@/components/HomeBannersSlider";
+import dynamic from "next/dynamic";
 
-// ---------------------------------------------------------------------------
-// Static content for the new sections. Swap for CMS/API data whenever ready —
-// shape is intentionally flat so it's easy to wire into homePageSettings later.
-// ---------------------------------------------------------------------------
+const HeroScrollAnimation = dynamic(
+  () => import("@/components/HeroScrollAnimation").then(mod => mod.HeroScrollAnimation),
+  { ssr: false }
+);
+
+
 
 const stats = [
   { value: "12K+", label: "Athletes Supplied", label_ar: "رياضي يثق بنا" },
